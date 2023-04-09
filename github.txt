@@ -1,0 +1,3 @@
+<BODY ONLOAD=alert("XSS")>
+<BODY ONLOAD=alert('XSS')>
+<div onmouseover="prompt(1)" onclick="alert(1)">Click me!</div>
